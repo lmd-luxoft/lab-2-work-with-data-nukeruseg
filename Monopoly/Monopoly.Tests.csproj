@@ -40,8 +40,13 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Field.cs" />
+    <Compile Include="BaseField.cs" />
     <Compile Include="Monopoly.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="TestClass.cs" />
+    <Compile Include="Type.cs" />
+    <Compile Include="UnBoughtableField.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
